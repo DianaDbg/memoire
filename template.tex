@@ -1,0 +1,412 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{glossaries}
+\makeglossaries
+\usepackage{enumitem}
+\usepackage{rotating}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[most]{tcolorbox}
+\usepackage{afterpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[Lenny]{fncychap}
+
+ \renewcommand{\baselinestretch}{1.5}
+ \usepackage{mathptmx}
+ \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \chead{}
+    \rfoot{\thepage}
+    \lfoot{\tiny{Mise en place d'un système d'administration de E-commerce et intégration d'un outil BI. \\ Diana Birame Diabong}}
+    \rhead{\fancyplain{}{\textit{\leftmark}}}
+ \usepackage{tabularx}
+ \usepackage{caption}
+ \usepackage[frenchb]{babel}
+ \usepackage{subcaption}
+\addto{\captionsfrench}{
+  \renewcommand{\mtctitle}{Sommaire}
+  \renewcommand{\tablename}{Tableau}
+  \renewcommand{\bibname}{Références}
+}
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+ \usepackage{graphicx}
+ \usepackage{minitoc}
+ \usepackage{float}
+ \setcounter{secnumdepth}{3}
+ \setcounter{tocdepth}{2}
+  
+ 
+ \title{Mise en place d'un système d'administration de E-commerce et intégration d'un outil BI.}
+\author{Prénom Nom}
+\date{}
+\definecolor{myblue}{RGB}{51,51,153}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+ 
+ 
+\newsavebox{\mybox}
+\newlength{\mydepth}
+\newlength{\myheight}
+ 
+\newenvironment{sidebar}%
+{\begin{lrbox}{\mybox}\begin{minipage}{\textwidth}}%
+{\end{minipage}\end{lrbox}%
+  \settodepth{\mydepth}{\usebox{\mybox}}%
+  \settoheight{\myheight}{\usebox{\mybox}}%
+  \addtolength{\myheight}{\mydepth}%
+  \noindent\makebox[0pt]{\hspace{-40pt}\rule[-\mydepth]{1pt}{\myheight}}%
+  \usebox{\mybox}}
+ 
+ \newcommand{\HRule}{\rule{\linewidth}{0.4mm}} % Defines a new command for the horizontal lines, change thickness here  
+ 
+ 
+\begin{document}
+
+\begin{titlepage}
+
+\centering % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%   HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\normalsize \textbf{RÉPUBLIQUE DU SÉNÉGAL}}\\[0.15cm] % Name of your university/college
+\includegraphics[scale=.1]{img/flag}\\[0.15cm]
+\textsc{\small \textbf{UNIVERSITÉ CHEIKH ANTA DIOP DE DAKAR}}\\[0.15cm]
+\includegraphics[scale=.2]{img/ucad}\\[0.15cm] % Include a department/university logo - this will require the graphicx package
+\textsc{\small \textbf{ÉCOLE SUPÉRIEURE POLYTECHNIQUE}}\\[0.15cm] % Major heading such as course name
+\textsc{\small {\textit {DÉPARTEMENT GÉNIE INFORMATIQUE}}}\\[0.15cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%   TITLE SECTION
+%----------------------------------------------------------------------------------------
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\centering
+ \textcolor{myblue}{\small{\textbf{MÉMOIRE DE FIN DE CYCLE}}}\\
+\small{\textbf{Pour l’obtention du :} \\
+\textbf{DIPLÔME D'INGÉNIEUR TECHNOLOGUE EN INFORMATIQUE}} % Title of your document
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\centering
+\textbf{\small{SUJET}}: \\
+\textcolor{red}{\textbf {Mise en place d'un système d'administration de E-commerce et intégration d'un outil BI.}} % Title of your document
+\end{tcolorbox}
+
+ 
+%----------------------------------------------------------------------------------------
+%   AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\small{\textbf{\underline{Lieu de stage }}: \textcolor{myblue}{Terinnova} \quad \textbf{\underline{Période stage}}: \textcolor{myblue}{04/02/2019 - 30/06/2019}}\\
+\centering \newline
+\includegraphics[scale=.6]{img/terinnova.png} % Title of your document
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\begin{tabular}{lll}
+Présenté et soutenu par & Encadrant & Maître de stage\\
+Diana Birame DIABONG & Dr Mandicou BA & M. Alioune KANOUTÉ
+\end{tabular}
+\end{tcolorbox}
+
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%   DATE SECTION
+%----------------------------------------------------------------------------------------
+\begin{flushright}
+{\small{\textcolor{myblue}{Année Universitaire : 2019-2021}}} % Date, change the \today to a set date if you want to be precise
+\end{flushright}
+\end{titlepage}
+\thispagestyle{empty}
+\clearpage\null
+
+% Deuxieme page de garde
+
+\begin{titlepage}
+
+\centering % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%   HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\normalsize \textbf{RÉPUBLIQUE DU SÉNÉGAL}}\\[0.15cm] % Name of your university/college
+\includegraphics[scale=.1]{img/flag}\\[0.15cm]
+\textsc{\small \textbf{UNIVERSITÉ CHEIKH ANTA DIOP DE DAKAR}}\\[0.15cm]
+\includegraphics[scale=.2]{img/ucad}\\[0.15cm] % Include a department/university logo - this will require the graphicx package
+\textsc{\small \textbf{ÉCOLE SUPÉRIEURE POLYTECHNIQUE}}\\[0.15cm] % Major heading such as course name
+\textsc{\small {\textit {DÉPARTEMENT GÉNIE INFORMATIQUE}}}\\[0.15cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%   TITLE SECTION
+%----------------------------------------------------------------------------------------
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\centering
+ \textcolor{myblue}{\small{\textbf{MÉMOIRE DE FIN DE CYCLE}}}\\
+\small{\textbf{Pour l’obtention du :} \\
+\textbf{DIPLÔME D'INGÉNIEUR TECHNOLOGUE EN INFORMATIQUE}} % Title of your document
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\centering
+\textbf{\small{SUJET}}: \\
+\textcolor{red}{\textbf {Mise en place d'un système d'administration de E-commerce et intégration d'un outil BI.}} % Title of your document
+\end{tcolorbox}
+
+ 
+%----------------------------------------------------------------------------------------
+%   AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\small{\textbf{\underline{Lieu de stage }}: \textcolor{myblue}{Terinnova} \quad \textbf{\underline{Période stage}}: \textcolor{myblue}{04/02/2019 - 30/06/2019}}\\
+\centering \newline
+\includegraphics[scale=.6]{img/terinnova.png} % Title of your document
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=myblue]
+\begin{tabular}{lll}
+Présenté et soutenu par & Encadrant & Maître de stage\\
+Diana Birame DIABONG & Dr Mandicou BA & M. Alioune KANOUTÉ
+\end{tabular}
+\end{tcolorbox}
+
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%   DATE SECTION
+%----------------------------------------------------------------------------------------
+\begin{flushright}
+{\small{\textcolor{myblue}{Année Universitaire : 2019-2021}}} % Date, change the \today to a set date if you want to be precise
+\end{flushright}
+
+\end{titlepage}
+\newpage
+
+\pagenumbering{roman}
+\dominitoc
+\chapter*{Dédicaces \markboth{Dédicaces}{}} 
+\markboth{DÉDICACES}{}
+
+
+\chapter*{Remerciements \markboth{Remerciements}{}}
+\markboth{REMERCIEMENTS}{}
+
+
+\chapter*{Avant-propos \markboth{Avant-propos}{}} 
+
+
+\tableofcontents
+\chapter*{Sigles et Abréviations \markboth{Sigles et Abréviations}{}}
+
+\listoffigures
+\listoftables
+
+
+\chapter*{Résumé \markboth{Résumé}{}}
+
+
+\chapter*{Abstract \markboth{Abstract}{}}
+
+
+\chapter*{Introduction \markboth{Introduction}{}} \mtcaddchapter 
+« Derrière un petit clic pour un individu se cache un grand pas pour l’économie. » déclarait par Le New York Times suite à la première transaction à distance par carte bancaire effectuée par Phil Brandenberger en 1994 aux USA. Ce premier achat de 12,48 \$ pour un album de Sting représente la première pierre d'un édifice qui ne cesse de croître depuis. En effet l’émergence du commerce en ligne est directement liée à l’apparition du web au début des années 1990 qui n'a cessé de connaitre d’évolutions jusqu’à nos jours.
+
+
+Avec l’arrivée de la pandémie de la covid-19, le commerce électronique a connu un véritable boom et donc il ne s’agit  non plus seulement pour les vendeurs d’être présent sur le web mais de passer à un niveau plus avancé c'est-à-dire d’anticiper pour mieux comprendre les besoins des utilisateurs et y répondre parfaitement dans le but de pouvoir supporter la concurrence en utilisant des approches comme la BI (Business Intelligence) ou informatique décisionnel en français.
+
+
+Cette dernière permet de fournir aux e-commerçants des indicateurs et des analyses extrêmement précis qui leur permettent d'étudier en profondeur leur situation existante et de mieux anticiper l'avenir.
+
+
+Terinnova, notre structure d’accueil a jugé nécessaire de proposer à son client Samson basé au USA une espace d’administration avec un outil BI intégré suite à la création de son site d'e-commerce qui lui permettra de gérer ses produits, traiter ses commandes, gérer ses utilisateurs, d’évaluer ses activités de vente et l’aider à la prise de décision. C’est dans ce sillage que nous allons essayer d’atteindre nos objectifs à travers ce travail qui nous a été confié qui s’intitule « Mise en place d’un système d’administration d’e-commerce et intégration d’un outil BI ».
+
+
+Le document s’articule autour de trois grandes parties :
+La première partie, intitulée « présentation générale », fait une description de notre structure
+d’accueil Terinnova et la présentation générale de notre sujet .
+La deuxième partie quant à elle renvoie à « la méthodologie et l’analyse ». Dans celle-ci,
+nous expliquerons d’abord les différentes méthodologies d’analyse et de conception, ensuite
+nous en choisirons une pour enfin procéder à l’analyse des besoins.
+Enfin, la troisième et dernière partie intitulée « implémentation de la solution » décrit en
+premier lieu la conception de la solution, en second lieu le choix des outils et technologies
+adéquats, pour ensuite procéder à la réalisation de notre plate-forme et enfin nous présenterons
+ce qui a été réalisé.
+\pagenumbering{arabic}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+% CHAPITRE 1
+\chapter{Présentation Générale}
+\textit{\textbf{Resume:} }.
+\setcounter{minitocdepth}{2}
+\minitoc
+\newpage
+\section{Présentation de la structure d'accueil}
+Dans cette partie nous allons dabord présenté la structure d'accueil et ensuite renseigné son domaine d'activité.
+\subsection{Présentation de la Societe Terinnova}
+  {En activité depuis 2020 Terinnova est une jeune entreprise sénégalaise ouverte à l’international, spécialisée dans la mise en œuvre de solutions informatiques répondant à toutes les problématiques liées à la gestion des systèmes d’informations et des systèmes d’infrastructures réseaux. Avec son équipe d’Ingénieurs professionnels, dynamiques et qualifiés, Terinnova accompagne les entreprises dans la réalisation de leurs objectifs visant à générer de la plus-value pour celles-ci. \\
+  Terinnova a pour mission d’être à la pointe de l’utilisation, de la création, du développement et de la transformation des technologies avancées de l’information et de la communication, bâtir un réseau mondial de professionnels afin de créer pleine satisfaction et de la plus-value pour leurs clients à travers le monde et les aider à réussir par le truchement des services et solutions de qualité, en matière de technologies intelligentes et innovantes. 
+  \\
+  Cette startup est portée dans toutes leurs actions par leurs valeurs, socles du respect de l'engagement vis à vis de l’humanité, vis à vis de leurs clients, vis à vis de leurs partenaires, vis à vis du continent africain.}
+\subsection{Domaines d'activités}
+{ Les services que Terinnova proposent sont assez larges. On peut en citer quelques : 
+
+
+\textbf{--- Digital Consulting : }
+\\
+Terinnova proposent un service de conseil qui accompagne les entreprises dans leurs transformation digitale, leur aide à se maintenir dans un marché mondial en constante évolution et en phase avec les dernières tendances technologiques. Du E-Commerce à la gestion des produits et des données en passant par le CRM, nous mettons en œuvre des solutions numériques centrées sur l'utilisateur, dont le succès à long terme est assuré par des experts en conception et développement. Grâce à ces compétences techniques et de processus étendues, vos idées novatrices se transformeront rapidement en résultats effectifs et tangibles.
+
+\textbf{--- Software Engineering :} 
+\\
+Transformer des idées en résultats commerciaux tangibles nécessite un solide bagage technique et une expertise dans tous les secteurs. Grâce à de solides pratiques de gestion et à une expertise en ingénierie des logiciels, TERINNOVA peut vous guider en toute sécurité dans la transformation numérique, en gardant votre entreprise agile, de l'élaboration des exigences détaillées au déploiement et à l'optimisation. Quelle que soit la complexité de votre vision, nous lui donnerons vie grâce à des solutions d'ingénierie numérique de qualité. 
+
+\textbf{--- Big Data \& Business Aanalytics:}  
+\\
+L’analyse commerciale « Business Analytics» se concentre sur un point essentiel, à savoir l'analyse financière et opérationnelle de l'entreprise. D'un autre côté, l'analyse « Big Data » aide à analyser une plus large gamme de données provenant de toutes les sources d'informations possibles et aide l'entreprise à prendre de meilleures décisions. 
+
+\textbf{--- Infrastructure :}
+\\
+Dans ce monde numérique et de cloud, les performances de votre entreprise sont étroitement liées au bon fonctionnement de votre infrastructure informatique. Une infrastructure agile et intelligente vous aide non seulement à vous adapter rapidement au changement, elle stimule également l'innovation et permet d'acquérir de nouveaux modèles commerciaux. 
+}
+\section{Présentation du sujet}
+{Dans cette section nous présentons de manière explicite le sujet de notre mémoire «\textbf{mise en place d’un système d’administration d’e-commerce et intégration d’un outil BI}». Nous allons parler du contexte dans lequel s’inscrit notre sujet, de la problématique et des objectifs à atteindre.}
+\subsection{Contexte}
+{Au cours de ces dernières années, l'e-commerce a totalement révolutionné le secteur de l’économie numérique et s’est fortement intégré dans les habitudes des consommateurs. Cette révolution a été accélérer par l’arrivée du covid-19. Alors que le confinement devenait la nouvelle normalité, les entreprises et les consommateurs se tournaient de plus en plus vers le numérique, vendant et achetant davantage de biens et de services en ligne. 
+
+En e-commerce, il existe de nombreux indicateurs pour aider les marchands à piloter leur activité et à optimiser leur gestion. Des chiffres qui leur permettent à la fois de dresser un état des lieux en temps réel mais également de mesurer l’efficacité des actions passées, d’analyser les résultats et de préparer les stratégies à venir. En effet, pour obtenir une vision plus fine et plus complète, il est nécessaire d’aller plus loin et d’accéder à des données et à des analyses plus poussées, à travers notamment la Business Intelligence. Ainsi, avec cette dernière, les marchands disposent d’une valeur ajoutée sans précédent pour mieux vendre et augmenter leurs revenus ! Elle leur permet de mieux connaître leur activité et leurs clients et d’optimiser leur fonctionnement à tous les niveaux.
+
+C’est dans ce contexte que s'inscrit notre sujet, un projet important pour Terinnova qui est la création d'une application web d’e-commerce pour son client Samson basé aux USA, une marque de vêtements. Grâce à cette application Samson pourra gérer ses produits, traiter ses commandes, gérer ses clients, évaluer ses activités de vente et prendre éventuellement des décisions.}
+\subsection{Problématique}
+{La plupart des plateformes d’e-commerce sont conçu avec des systèmes de gestion de contenu comme wordpress, wix... qui ont souvent des espaces d’administration chargée de fonctionnalités souvent inutiles pour le e-commerçant. En effet cela a un impact sur l’utilisation des fonctionnalités indispensables comme la gestion des stocks, le traitement des commandes...etc.
+
+De plus on ne pourra pas exploiter les données provenant des activités de vente car on n'a pas le contrôle dessus et donc on ne pourra pas établir de stratégie pour mieux vendre et augmenter ses revenus.}
+\subsection{Objectifs}
+{Notre objectif principal est de permettre à Samson d’avoir une application web sur mesure pour la gestion de son e-commerce. En effet cet outil permettra de faciliter l’exploitation des données de l’application et d’avoir un aperçu sur ses revenus annuels. Plus spécifiquement il s’agit d’avoir un outil pour s’assurer :
+\begin{itemize}
+  \item de la gestion des produits 
+  \item de la gestion des commandes
+  \item de la gestion des clients
+  \item et de l'analyse de donnée
+\end{itemize} 
+}
+
+
+
+%CHAPITRE 2
+\chapter{ Choix d'une méthode d'analyse et de conception }
+\textit{\textbf{Résumé:} }
+\setcounter{minitocdepth}{1}
+\minitoc
+
+\section{Définition des concepts}
+
+\section{Pourquoi utiliser  une méthode ?}
+
+\section{Classification des méthodes d'analyse et de conception}
+
+\section{Choix d'une méthode  d'analyse et de conception}
+
+
+
+%CHAPITRE 3
+\chapter{ Etude de l'existant }
+\textit{\textbf{Résumé:} }
+\setcounter{minitocdepth}{1}
+\minitoc
+
+\section{Définitions des concepts du domaine}
+
+\section{Fonctionnalités existantes}
+
+\subsection{Les acteurs principaux}
+\subsection{Les modules existants}
+
+
+\section{Architecture et Technologies utilisées}
+\subsection{Architecture technique}
+\subsection{Architecture applicative}
+\subsection{Technologies utilisées}
+\subsection{Les évolutions souhaitées}
+
+
+%CHAPITRE 4
+\chapter{Spécifications fonctionnelles détaillées}
+\textit{\textbf{Résumé:}}
+\setcounter{minitocdepth}{2}
+\minitoc
+\section{Les acteurs de l'application}
+\section{Présentation du domaine}
+
+
+%CHAPITRE 5
+\chapter{Conception de la plateforme}
+\textit{\textbf{Résumé : }}
+\setcounter{minitocdepth}{1}
+\minitoc
+\newpage
+\section{Solution technique}
+
+\section{Architecture de la plateforme}
+
+%CHAPITRE 6
+\chapter{Choix des outils et technologies}
+\textit{\textbf{Résumé:} }
+\minitoc
+\newpage
+
+%CHAPITRE 7
+\chapter{Implémentation de la solution}
+
+\textit{\textbf{Résumé:} }
+\minitoc
+\newpage
+\section{Architecture de la solution}
+\section{Présentation de l'application}
+
+
+
+\chapter*{Conclusion et Perspectives} \mtcaddchapter
+\markboth{Conclusion et Perspectives}{}
+\addcontentsline{toc}{chapter}{Conclusion et Perspectives}
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+\chapter*{Annexes} \mtcaddchapter
+\addcontentsline{toc}{chapter}{Annexes}
+\markboth{Annexes}{}
+\newpage
+
+
+\section*{Résumé \markboth{}{}}
+\thispagestyle{empty}
+
+
+\section*{Abstract \markboth{}{}} 
+
+\end{document}

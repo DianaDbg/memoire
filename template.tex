@@ -302,7 +302,7 @@ En e-commerce, il existe de nombreux indicateurs pour aider les marchands à pil
 
 C’est dans ce contexte que s'inscrit notre sujet, un projet important pour Terinnova qui est la création d'une application web d’e-commerce pour son client Samson basé aux USA, une marque de vêtements. Grâce à cette application Samson pourra gérer ses produits, traiter ses commandes, gérer ses clients, évaluer ses activités de vente et prendre éventuellement des décisions.}
 \subsection{Problématique}
-{La plupart des plateformes d’e-commerce sont conçu avec des systèmes de gestion de contenu comme wordpress, wix... qui ont souvent des espaces d’administration chargée de fonctionnalités souvent inutiles pour le e-commerçant. En effet cela a un impact sur l’utilisation des fonctionnalités indispensables comme la gestion des stocks, le traitement des commandes...etc.
+{La plupart des plateformes d’e-commerce sont conçu avec des systèmes de gestion de contenu comme wordpress, six... qui ont souvent des espaces d’administration chargée de fonctionnalités souvent inutiles pour le e-commerçant. En effet cela a un impact sur l’utilisation des fonctionnalités indispensables comme la gestion des stocks, le traitement des commandes...etc.
 
 De plus on ne pourra pas exploiter les données provenant des activités de vente car on n'a pas le contrôle dessus et donc on ne pourra pas établir de stratégie pour mieux vendre et augmenter ses revenus.}
 \subsection{Objectifs}
@@ -315,8 +315,6 @@ De plus on ne pourra pas exploiter les données provenant des activités de vent
 \end{itemize} 
 }
 
-
-
 %CHAPITRE 2
 \chapter{ Choix d'une méthode d'analyse et de conception }
 \textit{\textbf{Résumé:} }
@@ -324,12 +322,56 @@ De plus on ne pourra pas exploiter les données provenant des activités de vent
 \minitoc
 
 \section{Définition des concepts}
+Une méthode d'analyse et de conception a pour objectif de permettre de formaliser les étapes préliminaires du développement d'un système afin de rendre ce développement plus fidèle aux besoins du client. Pour ce faire, on part d'un énoncé informel (le besoin tel qu'il est exprimé par le client, complété par des recherches d'informations auprès des experts du domaine fonctionnel, comme par exemple les futurs utilisateurs d'un logiciel), ainsi que de l'analyse de l'existant éventuel (c'est-à-dire la manière dont les processus à traiter par le système se déroulent actuellement chez le client). \\Ainsi :
 
+ --- La  \textbf{phase d'analyse} permet de lister les résultats attendus, en termes de fonctionnalités, de performance, de robustesse, de maintenance, de sécurité, d'extensibilité, etc.
+ 
+ --- La \textbf{phase de conception} permet de décrire de manière non ambiguë, le plus souvent en utilisant un langage de modélisation, le fonctionnement futur du système, afin d'en faciliter la réalisation.
 \section{Pourquoi utiliser  une méthode ?}
+Pour mener à bon port un projet informatique, une méthode est nécessaire pour :
+
+\begin{itemize}
+  \item maîtriser la complexité du problème informationnel à résoudre;
+  \item sortir la construction des systèmes d'information de l'empirisme individuel et la fonder sur une coopération efficace entre informaticiens et utilisateurs;
+  \item permettre la communication entre les membres de l'équipe de conception;
+  \item permettre d'évaluer le système à tout moment de son cycle, tant sur le plan de son efficacité technique que sur celui de sa pertinence par rapport aux besoins des gestionnaires;
+  \item améliorer les coûts, les délais et la productivité des activités de développement.
+\end{itemize}
+
 
 \section{Classification des méthodes d'analyse et de conception}
+En général on divise les méthodes d'analyse et de conception en trois grandes familles (approches):
+
+\begin{itemize}
+  \item \textbf{Méthode Cartésienne ou Fonctionnels} \\ 
+  Cette approche est basée sur le principe de la décomposition hiérarchique des processus et des flux de données afin de mettre en oeuvre le système d'information. Le système étudié est ainsi abordé par les fonctions qu'il doit assurer plutôt que par les données qu'il doit gérer. Les méthodes de conception de première génération (SADT, SA-SD) sont basées sur cette approche, qui préconise un développement linéaire.
+  \item \textbf{Méthodes systémiques} \\
+  L'approche systémique consiste à élaborer des modèles capables de décrire ou de simuler globalement ou partiellement le comportement des systèmes étudiés. En se basant sur le modèle entité relation. L'approche cartésienne n'étant pas efficace pour des systèmes complexes comme l'entreprise, les méthodes d'analyse de seconde génération sont nées et basée essentiellement sur l'approche systémique des systèmes. Un objet complexe se caractérise par un nombre important de relations entre les éléments qui le constituent, alors qu'un objet compliqué est caractérisé par un nombre important d'éléments. D'où la pertinence de cette approche qui a vu naître les Les méthodes d'analyse comme Merise, REMORA etc.. basées sur une représentation de tous les faits pertinents qui surviennent dans une organisation en matérialisant les relations entre les entités de l'organisation.
+  \item \textbf{Méthode d’objets} \\
+  Dès lors qu'un système d'information est appelé à évoluer dans le temps, l'approche fonction se trouve butée à la complexité de la maintenance et de l'évolution d'où la pertinence d'une nouvelle approche basée sur les objets. Cette approche permet d'appréhender un système en centrant l'analyse sur les données et les traitements à la fois par le concept d'objet et leurs fonctions (appelées ici méthodes). \\
+  La plus value qu'offre l'approche objet est qu'elle est fondée sur la modularité, la flexibilité et surtout la réutilisabilité qui favorisent la maintenance et l'évolution des applications informatique.\\
+  Entre 1970 et 1990, plusieurs méthodes objet ont vu le jour parmi les quelles trois ont marqués les esprits : \\
+  \begin{itemize}
+    \item La méthode OMT de Rumbaugh
+    \item La méthode BOOCH'93 de Booch
+    \item La méthode OOSE de Jacobson
+  \end{itemize}
+\end{itemize}
 
 \section{Choix d'une méthode  d'analyse et de conception}
+Afin de réaliser un bon système, une étude et une conception normalisée selon la norme de
+modélisation universellement reconnue polyvalente et performante, l’utilisation d’UML
+s’avère nécessaire.
+Dans notre démarche, pour la réalisation du système du projet, nous retenons les étapes
+suivantes :
+
+ \begin{itemize}
+    \item détermination des acteurs potentiels du système
+    \item description des cas d’utilisation fondamentaux
+    \item les diagrammes de séquence
+    \item le diagramme de classe de conception
+    \item le diagramme de classe de conception de la généralisation
+\end{itemize}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.27)  21 APR 2022 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.27)  5 MAY 2022 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1288,14 +1288,18 @@ Chapitre 2.
 
 \openout6 = `template.mtc'.
 
-(./template.mtc3)
-Overfull \hbox (9.08546pt too wide) in paragraph at lines 330--330
+(./template.mtc3) [7
+
+]
+Overfull \hbox (2.55249pt too wide) in paragraph at lines 338--339
+[]\OT1/ptm/m/n/12 (-20) am[]eliorer les co[]uts, les d[]elais et la pro-duc-ti-vit[]e des ac-ti-vit[]es de d[]eveloppement. 
+ []
+
+
+Overfull \hbox (9.08546pt too wide) in paragraph at lines 342--342
 []\OT1/ptm/b/n/17.28 (-20) Classification des m[]ethodes d'ana-lyse et de concep-
  []
 
-[7
-
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.97595pt, for example:
@@ -1304,12 +1308,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.97595pt}.
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.97595pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.97595pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.97595pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.97595pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.97595pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.97595pt}.
+
+[10]
 Chapitre 3.
 \openout6 = `template.mtc'.
 
 \openout6 = `template.mtc'.
 
-(./template.mtc4) [9
+(./template.mtc4) [11
 
 ]
 
@@ -1319,13 +1343,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
+[12]
 Chapitre 4.
 \openout6 = `template.mtc'.
 
 \openout6 = `template.mtc'.
 
-(./template.mtc5) [11
+(./template.mtc5) [13
 
 ]
 Chapitre 5.
@@ -1333,7 +1357,7 @@ Chapitre 5.
 
 \openout6 = `template.mtc'.
 
-(./template.mtc6) [12
+(./template.mtc6) [14
 
 ]
 
@@ -1343,11 +1367,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[15]
 Chapitre 6.
 Package minitoc Info: I0006
-(minitoc)             template.mtc7 is empty on input line 380.
-[14
+(minitoc)             template.mtc7 is empty on input line 422.
+[16
 
 ]
 Chapitre 7.
@@ -1355,7 +1379,7 @@ Chapitre 7.
 
 \openout6 = `template.mtc'.
 
-(./template.mtc8) [15
+(./template.mtc8) [17
 
 ]
 
@@ -1365,15 +1389,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.97595pt}.
 
-[16] (./template.bbl [17
+[18] (./template.bbl [19
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [18
+) [20
 
-] [19
+] [21
 
 ]
 
@@ -1396,23 +1420,23 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the template.log file.
 
-[20] (./template.aux)
+[22] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: E93C6D3677802FDA3BEA15662AB130D3;7033.
  ) 
 Here is how much of TeX's memory you used:
- 38905 strings out of 478276
- 746519 string characters out of 5853013
+ 38926 strings out of 478276
+ 746698 string characters out of 5853013
  1145837 words of memory out of 5000000
- 55875 multiletter control sequences out of 15000+600000
- 523998 words of font info for 251 fonts, out of 8000000 for 9000
+ 55879 multiletter control sequences out of 15000+600000
+ 524593 words of font info for 261 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,117p,1174b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,117p,1174b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (34 pages, 186226 bytes).
+Output written on template.pdf (36 pages, 194659 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
  94156 words of extra memory for PDF output out of 106986 (max. 10000000)
 

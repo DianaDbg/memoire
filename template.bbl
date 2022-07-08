@@ -1,3 +1,63 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{cycle_en_v}
+{La Business Analysis dans le cycle en V}.
+\newblock \url{https://opensource.com/resources/virtualization}.
+\newblock 2022-05-09.
+
+\bibitem{modele_en_cascade}
+Le modèle en cascade (waterfall model).
+\newblock
+  \url{https://www.ionos.fr/digitalguide/sites-internet/developpement-web/modele-en-cascade/}.
+\newblock 2022-05-08.
+
+\bibitem{e-commerce}
+Plateforme e commerce : définition, exemples - définition.
+\newblock \url{https://sendpulse.com/fr/support/glossary/ecommerce-platform}.
+
+\bibitem{postman}
+{Postman}.
+\newblock \url{https://fr.wikipedia.org/wiki/Postman_(logiciel)}.
+\newblock 10 Juin 2018.
+
+\bibitem{speedandfunction}
+{Speedandfunction}.
+\newblock
+  \url{https://speedandfunction.com/look-25-years-software-projects-can-learn/},
+  2022-05-08.
+
+\bibitem{bi}
+Solution bi et data analytics pour les activités e-commerce.
+\newblock \url{https://reeport.io/}, 2022-07-03.
+
+\bibitem{angular}
+{Angular}.
+\newblock \url{https://angular.io/}, 2022-07-04.
+
+\bibitem{django}
+{Django}.
+\newblock \url{https://www.djangoproject.com/}, 2022-07-04.
+
+\bibitem{agile}
+{Insights to Agile Methodologies for Software Development}.
+\newblock
+  \url{https://hackernoon.com/a-case-study-type-insight-into-agile-methodologies-for-software-development-cd5932c6},
+  2022-07-04.
+
+\bibitem{postgres}
+{Postgres}.
+\newblock \url{https://fr.wikipedia.org/wiki/PostgreSQL}, 2022-07-04.
+
+\bibitem{swagger}
+{Swagger}.
+\newblock \url{https://fr.wikipedia.org/wiki/Swagger_(logiciel)}, 2022-07-04.
+
+\bibitem{figma}
+{Figma}.
+\newblock \url{https://www.figma.com/}, 3 juillet 2022.
+
+\bibitem{terinnova}
+{Terinnova}.
+\newblock \url{https://terinnova.com/}, 4 juillet 2022.
 
 \end{thebibliography}

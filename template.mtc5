@@ -1,3 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Architecture logique}{\reset@font\mtcSfont 46}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Choix technologiques}{\reset@font\mtcSfont 46}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Architecture technique}{\reset@font\mtcSfont 46}{section.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Architecture logique}{\reset@font\mtcSfont 59}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Choix technologiques}{\reset@font\mtcSfont 60}{section.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Figma}{\reset@font\mtcSSfont 60}{subsection.4.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Angular :}{\reset@font\mtcSSfont 61}{subsection.4.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Django}{\reset@font\mtcSSfont 62}{subsection.4.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.4}Postgres}{\reset@font\mtcSSfont 63}{subsection.4.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.5}Swagger}{\reset@font\mtcSSfont 63}{subsection.4.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.6}Gitlab}{\reset@font\mtcSSfont 64}{subsection.4.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.7}Postman}{\reset@font\mtcSSfont 65}{subsection.4.2.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.8}VS Code}{\reset@font\mtcSSfont 66}{subsection.4.2.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.9}Reveal BI}{\reset@font\mtcSSfont 67}{subsection.4.2.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Architecture technique}{\reset@font\mtcSfont 67}{section.4.3}}

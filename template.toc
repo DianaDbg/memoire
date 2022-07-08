@@ -1,6 +1,6 @@
 \babel@toc {french}{}\relax 
-\contentsline {xchapter}{}{xi}{Doc-Start}%
-\contentsline {chapter}{Introduction}{1}{Doc-Start}%
+\contentsline {xchapter}{}{xv}{table.caption.1}%
+\contentsline {chapter}{Introduction}{1}{table.caption.1}%
 \contentsline {chapter}{\numberline {1}Présentation Générale}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Présentation de la structure d'accueil}{3}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Présentation de la Societe Terinnova}{3}{subsection.1.1.1}%
@@ -23,21 +23,49 @@
 \contentsline {section}{\numberline {2.1}Définitions des concepts du domaine}{36}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Qu’est-ce que le e-commerce ?}{36}{subsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.1.1}5 outils d'e-commerce disponible sur le marché : }{37}{subsubsection.2.1.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Qu’est-ce que la Business Intelligence ou BI (informatique décisionnelle) : }{42}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Fonctionnalités existantes}{43}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Les acteurs principaux}{43}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Les modules existants}{43}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {3}Spécifications fonctionnelles détaillées}{44}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Les acteurs de l'application}{44}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Présentation du domaine}{44}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Conception de la plateforme}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architecture logique}{46}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Choix technologiques}{46}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Architecture technique}{46}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Implémentation de la solution}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Architecture de la solution}{48}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Présentation de l'application}{48}{section.5.2}%
-\contentsline {xchapter}{}{49}{section.5.2}%
-\contentsline {chapter}{Conclusion et Perspectives}{49}{section.5.2}%
-\contentsline {xchapter}{}{51}{section.5.2}%
-\contentsline {chapter}{Annexes}{51}{section.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Qu’est-ce qu’un site e-commerce sur-mesure ?}{43}{subsubsection.2.1.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Qu’est-ce que la Business Intelligence ou BI (informatique décisionnelle) : }{44}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Fonctionnalités existantes}{45}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Les acteurs principaux}{45}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Les modules existants}{45}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Spécifications fonctionnelles détaillées}{47}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Les acteurs de l'application}{47}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Présentation du domaine}{48}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Les fonctionnalités générales}{48}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}La gestion des produits :}{48}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}La gestion des catégories :}{48}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}La gestion des commandes :}{49}{subsubsection.3.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.2.1.4}La gestion des clients :}{49}{subsubsection.3.2.1.4}%
+\contentsline {subsubsection}{\numberline {3.2.1.5}Analytique :}{49}{subsubsection.3.2.1.5}%
+\contentsline {subsection}{\numberline {3.2.2}Analyse des besoins :}{49}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Digramme de cas d'utilisation :}{49}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Diagramme de séquences et description textuelle de quelques cas d'utilisations :}{50}{subsubsection.3.2.2.2}%
+\contentsline {paragraph}{Cas d'utiliation : « S'authentifier » :}{50}{section*.25}%
+\contentsline {paragraph}{Cas d'utiliation : « Ajouter un produit » :}{52}{section*.28}%
+\contentsline {paragraph}{Cas d'utiliation : « Confirmer une commande » :}{54}{section*.31}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Diagramme de classe :}{57}{subsubsection.3.2.2.3}%
+\contentsline {chapter}{\numberline {4}Conception de la plateforme}{58}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architecture logique}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Choix technologiques}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Figma}{60}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Angular :}{61}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Django}{62}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Postgres}{63}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Swagger}{63}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Gitlab}{64}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Postman}{65}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}VS Code}{66}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Reveal BI}{67}{subsection.4.2.9}%
+\contentsline {section}{\numberline {4.3}Architecture technique}{67}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Implémentation de la solution}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Présentation de l'application}{70}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Page d'authentification}{70}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Tableau de bord}{70}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Page Liste Produit}{71}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Page Ajout Produit}{72}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Page Catégorie}{74}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Page Commande}{74}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Page Client}{75}{subsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.8}Page Analytique}{76}{subsection.5.1.8}%
+\contentsline {xchapter}{}{78}{figure.caption.55}%
+\contentsline {chapter}{Conclusion et Perspectives}{78}{figure.caption.55}%
